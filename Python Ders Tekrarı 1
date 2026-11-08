@@ -1,0 +1,177 @@
+print("Vektorel "*5) #print concol ekranna bir şeyler yazdırır.
+print("╔════════════════════════════╗")
+print("║      ANA MENU              ║")
+print("║════════════════════════════║")
+print("║ 1-Oyunlar                  ║")
+print("║ 2-Çizimler                 ║")
+print("║ 3-Hesaplamalar             ║")
+print("║ 4-........                 ║")
+print("║ 9-Çıkış                    ║")
+print("╚════════════════════════════╝")
+
+# 201 ╔
+# 205 ═
+# 187 ╗
+# 186 ║
+# 200 ╚
+# 188 ╝
+# 185 ╣
+# 204 ╠
+
+print()
+#print() fonksiyonu değişken/variable,string/metin,sayı/numerik,mantıksal/logic parametreleri yazdırır.
+# CTRL+Ö bilgi satırı yapar ve geri alır
+a = 3 #a değişken/variable dır
+b = 4
+print(a,"ile",b,"toplamı:",a+b,a<b) #fonksiyon içine yazılan şeylere parametre diyoruz.
+print(a<b)
+
+# tırnak kullanımı
+print("Merhaba") #CTRL + D aynı kelimeleri seçer
+print('Merhaba')
+print('''Merhaba''')
+print("""Merhaba""")
+# print('Eren'in annesi "gel" dedi') #hata verir
+print('Eren\'in annesi "gel" dedi')
+print('''Eren'in annesi "gel" dedi''')
+a=3
+b=4
+print('Eren\'in an\nesi "gel" de\ndi''')
+print("a\tdeğeri\t: \t",a)
+print("b\tdeğeri\t: \t",b)
+print(a,"ile",b,"toplamı:",a+b)
+print(f"({a} ile {b} toplamı: (a+b)",a+b)
+
+input()
+# Klavyeden girilen iki sayıyla dört işlem program
+# kullanıcıdan klavye ile bilgi almak için input kullanılır.
+# input aldığu bilgisi string olarak alır.
+# int() fonksiyonu tam sayıya(integer) çevirir.
+sayi1=int(input("1.Sayıyı giriniz:"))
+sayi2=int(input("2.Sayıyı giriniz:"))
+toplam = sayi1 + sayi2
+cıkarma = sayi1 - sayi2
+carpma = sayi1 * sayi2
+bolme = sayi1 / sayi2
+print(f"{sayi1} + {sayi2} = {toplam}")
+print(f"{sayi1} - {sayi2} = {cıkarma}")
+print(f"{sayi1} * {sayi2} = {carpma}")
+print(f"{sayi1} / {sayi2} = {bolme}")
+#input fonksiyonu sadece bir string parametre alır.
+#input fonksiyonunda sadece bir string parametre kullanılabilir.
+ad = input("Adınız nedir?")
+print(f"Adın güzelmiş {ad}.")
+dy = int(input(f"hangi yılda doğdun {ad}:"))
+print(f"Demek{2026-dy} yaşındasın {ad}.")
+
+if ile karar verme
+vektorel-python-dersleri
+
+[2]
+print("Vektorel "*5) #print concol ekranna bir şeyler yazdırır.
+print("╔════════════════════════════╗")
+print("║      ANA MENU              ║")
+print("║════════════════════════════║")
+print("║ 1-Oyunlar                  ║")
+print("║ 2-Çizimler                 ║")
+print("║ 3-Hesaplamalar             ║")
+print("║ 4-........                 ║")
+print("║ 9-Çıkış                    ║")
+print("╚════════════════════════════╝")
+
+# 201 ╔
+# 205 ═
+# 187 ╗
+# 186 ║
+# 200 ╚
+# 188 ╝
+# 185 ╣
+# 204 ╠
+
+print()
+#print() fonksiyonu değişken/variable,string/metin,sayı/numerik,mantıksal/logic parametreleri yazdırır.
+# CTRL+Ö bilgi satırı yapar ve geri alır
+a = 3 #a değişken/variable dır
+b = 4
+print(a,"ile",b,"toplamı:",a+b,a<b) #fonksiyon içine yazılan şeylere parametre diyoruz.
+print(a<b)
+
+# tırnak kullanımı
+print("Merhaba") #CTRL + D aynı kelimeleri seçer
+print('Merhaba')
+print('''Merhaba''')
+print("""Merhaba""")
+# print('Eren'in annesi "gel" dedi') #hata verir
+print('Eren\'in annesi "gel" dedi')
+print('''Eren'in annesi "gel" dedi''')
+a=3
+b=4
+print('Eren\'in an\nesi "gel" de\ndi''')
+print("a\tdeğeri\t: \t",a)
+print("b\tdeğeri\t: \t",b)
+print(a,"ile",b,"toplamı:",a+b)
+print(f"({a} ile {b} toplamı: (a+b)",a+b)
+
+input()
+# Klavyeden girilen iki sayıyla dört işlem program
+# kullanıcıdan klavye ile bilgi almak için input kullanılır.
+# input aldığu bilgisi string olarak alır.
+# int() fonksiyonu tam sayıya(integer) çevirir.
+sayi1=int(input("1.Sayıyı giriniz:"))
+sayi2=int(input("2.Sayıyı giriniz:"))
+toplam = sayi1 + sayi2
+cıkarma = sayi1 - sayi2
+carpma = sayi1 * sayi2
+bolme = sayi1 / sayi2
+
+if ile karar verme
+if şart : çalışacak kod satırları (girintili olarak) ......
+# if ile karar verme
+sayi1 = int(input("1.Sayıyı giriniz:"))
+sayi2 = int(input("2.Sayıyı giriniz:"))
+islem = input("İşleminiz nedir (+,-,*,/)?")
+if islem == "+" :  # işlem değişkenin + ifadesinde eşit olması durumunda aşağıdaki kodu çalıştırır.
+   toplam = sayi1 + sayi2
+   print(f"{sayi1} + {sayi2} = {toplam}")
+if islem == "-" :  # işlem değişkenin - ifadesinde eşit olması durumunda aşağıdaki kodu çalıştırır.
+   cıkarma = sayi1 - sayi2
+   print(f"{sayi1} - {sayi2} = {cıkarma}")
+if islem == "*" :  # işlem değişkenin * ifadesinde eşit olması durumunda aşağıdaki kodu çalıştırır.
+   carpma = sayi1 * sayi2
+   print(f"{sayi1} * {sayi2} = {carpma}")
+if islem == "/" :  # işlem değişkenin / ifadesinde eşit olması durumunda aşağıdaki kodu çalıştırır.
+   bolme = sayi1 / sayi2
+   print(f"{sayi1} / {sayi2} = {bolme}")
+ 
+operatorler
+# Aritmetik operatorler / Matematiksel operatorler
+print(5+9) # + operatand
+print("5" + "9") # + operator , 5 ile 9 operand birleştirme
+print(5*9)
+print(20/3)
+print(20//3) # virgülsüz bölme
+print(2**3) # üst alma
+print(10**3) # üst alma
+print(10%3) # mod alma
+print(20%3) # mod alma
+# String operatorleri
+print("5" + "9") # + operand 5 ile 9 operand birleştirme
+print("Vektorel" + "Bilisim")
+print("Vektorel"*4)
+# Mantıksal operatorler/Karşılaştırma opeatorler True/False sonucu üreten operatorlerdir
+# True = Doğru = 1 = Evet = Olumlu
+# False = Yanlış = 0 = Hayır = Olumsuz
+print(3<8)
+print(3>8)
+print(3<=8) # küçük veya eşit mi
+print(3>=8) # büyük veya eşit mi
+print(3==8)
+print(3==3)
+print(3!=8) # eşit değil mi
+print(3>8 or 15>12) # Sadece bir şartın doğru olması durumunda sonuc doğru olur
+print(13>8 and 15>12) # Tüm şartların doğru olması durumunda sonuc doğru olur.
+
+
+
+
+
