@@ -1,0 +1,1 @@
+# Vekt-rel-Python-Ders-Tekrar-1
